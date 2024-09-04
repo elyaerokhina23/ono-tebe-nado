@@ -1,14 +1,12 @@
 /* место для вашего кода */
 .header {
-  padding: 92px 24px 96px;
+  padding: 92px 87px 95px 52px;
+  align-items: center;
   display: grid;
-  grid-template-columns: 392px 1fr 203px;
-  grid-template-rows: 1fr;
-  grid-column-gap: 36px;
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .header__menu {
-  margin-top: 44px;
   font-family: Raleway, serif;
   font-weight: normal;
   font-size: 18px;
@@ -17,9 +15,8 @@
 .header__links-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 14px;
   list-style-type: none;
+  gap: 17px;
 }
 
 .header__links-list .header__links-list-item::before {
@@ -30,7 +27,7 @@
   border-radius: 50%;
   background-color: transparent;
   border: 1px solid black;
-  margin-right: 6px;
+  margin-right: 4px;
 }
 
 .header__links-list .header__links-list-item_no-bullit::before {
@@ -50,18 +47,23 @@
   display: block;
   width: 148px;
   height: 105px;
+  margin-left: 37px;
 }
 
-.address {
+.header__address {
+  margin-left: 186px;
   font-family: Raleway, serif;
   font-weight: normal;
   font-size: 18px;
-  margin-top: 14px;
 }
 
 .address a {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+address {
+  font-style: normal;
 }
 
 .cover {
@@ -71,7 +73,7 @@
 }
 
 .cover-title {
-  padding: 162px 50px 147px;
+  padding: 165px 50px 147px;
   font-family: Raleway, serif;
   font-weight: bold;
   font-size: 100px;
@@ -107,14 +109,14 @@
 }
 
 .cover__description-text {
-  margin-top: 11px;
   font-family: Raleway;
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
-  letter-spacing: 0.1em;
-  word-spacing: 0.4em;
+  letter-spacing: 0.04em;
+  word-spacing: 0.5em;
+  margin-top: 5px;
 }
 
 .bet-button {
@@ -139,7 +141,8 @@
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 27px;
-  margin-left: 64px;
+  margin-left: 35px;
+  margin-top: -7px;
 }
 
 .lots__card-list {
@@ -190,6 +193,7 @@
   color: #fff;
   position: relative;
   z-index: 1;
+  margin-top: 10px;
 }
 
 .card_type_film {
@@ -212,7 +216,7 @@
 }
 
 .lots__look-more-link {
-  margin-left: 64px;
+  margin-left: 39px;
   font-family: Raleway;
   font-weight: normal;
   font-size: 20px;
@@ -239,6 +243,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 50px;
 }
 
 .about__logo-image {
@@ -254,6 +259,7 @@
   color: #000;
   margin-bottom: 100px;
   margin-top: 101px;
+  margin-left: -9px;
 }
 
 .about__descriptions {
@@ -266,6 +272,7 @@
   font-family: Raleway;
   font-size: 20px;
   font-weight: normal;
+  margin-bottom: -17px;
 }
 
 .footer {
@@ -305,6 +312,7 @@
   text-underline-offset: 4px;
   list-style-type: none;
   text-align: center;
+  margin-left: 45px;
 }
 
 .footer__menu-link_active {
