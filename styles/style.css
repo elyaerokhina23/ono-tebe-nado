@@ -80,12 +80,16 @@ address {
 }
 
 .cover-title {
-  padding: 165px 50px 147px;
+  padding: 165px 50px 0;
   font-family: Raleway, serif;
   font-weight: bold;
   font-size: 100px;
   color: #fff;
   text-transform: uppercase;
+  line-height: 1.22;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 127px;
 }
 
 .aligned-text {
@@ -104,8 +108,12 @@ address {
   letter-spacing: 0.6em;
 }
 
+.letter-spacing-default {
+  letter-spacing: 0.3em;
+}
+
 .no-letter-spacing {
-  letter-spacing: normal;
+  letter-spacing: 0em;
 }
 
 .cover__description {
@@ -114,6 +122,8 @@ address {
   justify-content: space-between;
   padding: 0 50px 51px 78px;
   line-height: 28px;
+  z-index: 1;
+  position: relative;
 }
 
 .cover__description-text {
@@ -123,8 +133,7 @@ address {
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
-  letter-spacing: 0.1em;
-  word-spacing: 0.4em;
+  word-spacing: 0.8em;
 }
 
 .bet-button {
@@ -140,7 +149,7 @@ address {
 }
 
 .lots {
-  padding: 179px 24px 146px;
+  padding: 175px 24px 146px;
 }
 
 .lots__heading {
@@ -157,7 +166,7 @@ address {
   flex-direction: row;
   justify-content: space-between;
   gap: 25px;
-  margin-bottom: 37px;
+  margin-bottom: 23px;
 }
 
 .lots__card-list-item {
@@ -170,9 +179,8 @@ address {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 51px 40px 48px;
   height: 100%;
-  padding: 48px 40px;
+  padding: 55px 40px;
   position: relative;
 }
 
@@ -200,6 +208,7 @@ address {
   color: #fff;
   position: relative;
   z-index: 1;
+  line-height: 1.2;
 }
 
 .card_type_film {
@@ -233,12 +242,9 @@ address {
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 1fr 3fr;
   gap: 72px;
-  padding: 35px 71px 180px;
-  max-width: 1000px;
-  max-height: 600px;
+  padding: 35px 71px 0;
 }
 
 .about__logo {
@@ -252,9 +258,10 @@ address {
 }
 
 .about__logo-image {
-  width: 70%;
+  width: 63%;
   height: auto;
 }
+
 
 .about__headling {
   text-transform: uppercase;
@@ -262,7 +269,7 @@ address {
   font-weight: bold;
   font-size: 40px;
   color: #000;
-  margin-bottom: 100px;
+  margin-bottom: 101px;
   margin-top: 101px;
 }
 
@@ -270,6 +277,8 @@ address {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  line-height: 24px;
+  min-width: 688px;
 }
 
 .about__description {
@@ -281,7 +290,7 @@ address {
 .footer {
   width: 1052px;
   padding: 0 27px;
-  margin: 175px auto;
+  margin: 183px auto 88px;
 }
 
 .footer__container {
