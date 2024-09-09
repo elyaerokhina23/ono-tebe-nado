@@ -317,11 +317,6 @@ address {
   gap: 1px;
 }
 
-.footer__link_with-skip {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
 .footer__menu-list-item {
   list-style-type: none;
   text-align: center;
