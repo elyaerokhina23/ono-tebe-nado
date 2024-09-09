@@ -23,12 +23,11 @@ address {
   flex-direction: row;
   justify-content: space-between;
   list-style-type: circle;
-  gap: 14px;
+  gap: 33px;
 }
 
 .header__links-list-item_no-bullit{
   list-style: none;
-  margin-right: 17px;
 }
 
 .header__link {
@@ -47,10 +46,13 @@ address {
   justify-self: center;
 }
 
-.header__address {
+.address {
   font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 18px;
+}
+
+.header__address {
   justify-self: end;
   margin-right: 36px;
   line-height: 1.3;
@@ -292,9 +294,6 @@ address {
 }
 
 .footer__address {
-  font-family: Raleway, sans-serif;
-  font-weight: normal;
-  font-size: 18px;
   justify-self: start;
   line-height: 1.3;
 }
