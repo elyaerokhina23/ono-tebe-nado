@@ -1,1 +1,1 @@
-https://github.com/elyaerokhina23/ono-tebe-nado
+Вёрстка одностраничного сайта "Оно тебе надо" (Pixel Perfect)
