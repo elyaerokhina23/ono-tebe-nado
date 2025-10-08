@@ -26,7 +26,7 @@ address {
   gap: 33px;
 }
 
-.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit {
   list-style: none;
 }
 
@@ -133,7 +133,7 @@ address {
   color: #fff;
   padding: 12px 32px 11px 31px;
   background-color: transparent;
-  border: 1px #fff solid;
+  border: 1px solid currentColor;
   font-family: Raleway, sans-serif;
   font-weight: normal;
   font-size: 22px;
@@ -202,6 +202,9 @@ address {
   position: relative;
   z-index: 1;
   line-height: 1.2;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_type_film {
@@ -254,7 +257,6 @@ address {
   width: 63%;
   height: auto;
 }
-
 
 .about__headling {
   text-transform: uppercase;
@@ -317,12 +319,12 @@ address {
 }
 
 .footer__menu-link {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer__social-list {
